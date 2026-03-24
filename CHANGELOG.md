@@ -7,6 +7,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+- Fixes CLI `StartHandler` merging stderr into stdout, so error logs are handled separately
+
 ## [11.4.1]
 
 - Fixes OTEL initialization when there is no javaagent
